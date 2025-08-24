@@ -1,0 +1,13 @@
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: rgb(165, 42, 56);
+}
+/* class-> ".",id->"#" */
+.red{
+    color:bisquel;
+}
+.bg-yellow{
+    background-color: darkolivegreen;
+}
