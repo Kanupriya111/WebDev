@@ -68,9 +68,29 @@
 <div>
     hey!
 </div>
+    <style>
+        .red{
+            background-color:red;
+        }
+        /* <!-- Child Selector --> */
+        div > p {
+            color:cornflowerblue;
+            background-color:black;
+        }
+        /* Descendant Selector (for all)*/
+        div p{
+            color: cornflowerblue;
+            background-color: black;
+        }
+    </style>
+    <div class="red">Good Morning
+        <article><p>I am a paragraph</p></article>
+        <a> GO to takeUforward</a>
+    </div>
 </body>
 
 </html>
+
 
 
 
