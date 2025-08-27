@@ -12,4 +12,17 @@ a{
     background-color: darkolivegreen;
 }
 /*inline CSS,Internal CSS ,External CSS  */
+*{
+    color: black;
+}
+/* Pseudo Selector */
+a:visited{
+    color: yellow;
+}
+a:link{
+    color: darkgreen;
+}
+a:active{
+    background-color: antiquewhite;
+}
 
