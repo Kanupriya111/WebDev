@@ -47,5 +47,29 @@ h1 yellow{
 [data-x=a]{
     background-color:bisque;
 }
+*{
+    color:blue;
+    font-size: 15px;
+}
+h1{
+    color:aquamarine;
+}
+.yellow{
+    color:yellow;
+}
+h1 yellow{
+    color:cyan;
+}
+.cred{
+    color:maroon;
+}
+.cpurple{
+    color:purple;
+}
+/* attribute selector*/
+[data-x=a]{
+    background-color:bisque;
+}
+
 
 
