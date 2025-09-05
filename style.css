@@ -70,6 +70,45 @@ h1 yellow{
 [data-x=a]{
     background-color:bisque;
 }
+*{
+    margin: o;
+    padding: 0;
+}
+.parent{
+    padding: 3px;
+    margin:34px;
+    border:2px solid purple;
+    position: relative;
+}
+.box{
+    height: 130px;
+    width:80vw;
+    padding: 3px;
+    margin: 3px;
+    border:2px solid black;
+}
+.box1{
+    position:sticky;
+    background-color: bisque;
+    top:0px; /*nearest positioned ancestor*/ 
+}
+.box2{
+    background-color: aquamarine;
+    /* position:relative;
+    top:90px;
+    left:40px; */
+}
+.box3{
+    height:300px;
+    position: relative;
+    background-color: rgb(29, 166, 166);
+    z-index:1; 
+}
+.box4{
+    /* position:fixed; */
+    background-color: brown;
+}
+/* tranform , filter or perspective properties can also make element to appears as positioned */
 
 
 
