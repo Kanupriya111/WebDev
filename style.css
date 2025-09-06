@@ -110,5 +110,27 @@ h1 yellow{
 }
 /* tranform , filter or perspective properties can also make element to appears as positioned */
 
+*{
+    margin: o;
+    padding: 0;
+}
+/* declaring css variables */
+:root{
+    --color:blue;
+    --seccolor:cornflowerblue;
+    --defop:0.2;
+    --defpad:23px;
+}
+.navbar{
+    background-color:var(--seccolor);
+}
+.container{
+    /* local variable */
+    --color:cornflowerblue;
+    background-color: var(--color);
+}
+ul{
+    display: flex;
+}
 
 
