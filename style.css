@@ -132,5 +132,21 @@ h1 yellow{
 ul{
     display: flex;
 }
+body{
+    background-color: cornflowerblue;
+}
+/* @media not|only|all mediatype and (Expression){
+        CSS-code;
+    } */
+@media only screen and (max-width:455px){
+    body{
+        background-color: bisque;
+    }
+}
+@media screen and (orientation:landscape){
+    body{
+        background-color:pink;
+    }
+}
 
 
