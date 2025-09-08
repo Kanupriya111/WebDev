@@ -148,5 +148,22 @@ body{
         background-color:pink;
     }
 }
+body{
+    background-color: cornflowerblue;
+}
+img{
+    float:right;
+}
+.cards{
+    border:2px solid black;
+    display:flow-root;
+}
+.card{
+    border:2px solid pink;
+}
+.card:nth-child(2){
+    background-color: bisque;
+    clear: right;
+}
 
 
