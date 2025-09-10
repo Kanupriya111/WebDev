@@ -204,6 +204,12 @@ input::placeholder{
     align-items: center;
     /* flex-direction: column; */
     flex: wrap;
+    align-content: center;
+    flex-flow:row row-reverse;
+    gap: 9px;
+    row-gap: 4px;
+    column-gap: 4px;
+    order:15;
 }
 .item{
     height:22px;
@@ -211,7 +217,9 @@ input::placeholder{
     background-color: bisque;
     border:2px solid black;
     margin:4px;
-
+    flex-grow:8;
+    flex-shrink: 2;
 }
+
 
 
