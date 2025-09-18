@@ -389,6 +389,29 @@ img{
     object-fit: cover;
     object-position: top mid;
 }
+.container{
+    height:80vh;
+    width:80vw;
+    background-color: cornflowerblue;
+    border:2px solid black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/19448324/pexels-photo-19448324.jpeg?cs=srgb&dl=pexels-yassin-chykry-19448324.jpg&fm=jpg")
+}
+.img1{
+    filter:blur(10px);
+    /* filter:invert(1) */
+    /* filter: opacity(0.5%); */
+};
+.img2{
+    /* filter:brightness(122%) */
+    filter: sepia(100%);
+}
+img{
+    /* filter: contrast(20%); */
+    filter: grayscale(100%);
+}
+
 
 
 
