@@ -9,3 +9,5 @@ if(a%2==0 && isTrue){
 }else{
     console.log("This is Odd Number");
 }
+document.title="Hey! I am good";
+document.body.style.backgroundColor="pink"
