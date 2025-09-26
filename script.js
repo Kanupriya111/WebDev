@@ -11,3 +11,36 @@ if(a%2==0 && isTrue){
 }
 document.title="Hey! I am good";
 document.body.style.backgroundColor="pink"
+
+console.log("code is running....");
+var a=5;
+var b=6;
+var c="Kanu"
+console.log(a+b+"kanu");
+console.log(typeof a,typeof c);
+// JS is case sensitive
+// var has global scope and let & const are blocked scope
+const s =9;
+// s=s+1; not allowed 
+{
+    var a=5;
+    console.log(a);
+}
+console.log(a);
+let x = "Kanu";
+let y = 10;
+let z = 10.7;
+const p = true;
+let q = undefined;
+let r = null;
+
+console.log(x,y,z,p,q,r);
+console.log(typeof x,typeof y,typeof z,typeof p,typeof q,typeof r);
+let o ={
+    name:"Kanu",
+    "job role":1003,
+};
+console.log(o);
+o.salary = "cr";
+console.log(o);
+
