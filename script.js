@@ -43,4 +43,18 @@ let o ={
 console.log(o);
 o.salary = "cr";
 console.log(o);
+console.log("hello i am conditional Tutorial");
+let age =16; //local sope
+let grace = 2;
+console.log(age**grace); //exponential operator
+if((age+grace)>18){
+    console.log("You can drive");
+}else{
+    console.log("you cannot drive");
+}
+// === -> check for type as well as for value
+// > "3"==3
+// true
+// > "3"===3
+// false
 
