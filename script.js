@@ -57,4 +57,37 @@ if((age+grace)>18){
 // true
 // > "3"===3
 // false
+/* i
+am a
+multiline comment
+*/
+// if else if else ladder -> multiple if else's
+//  a>b ? (a-b):(b-a) , ternary statment
+console.log("loops"); // for loop,for in loop,for of loop , while loop , do while loop
+let x =10;
+for (let i = x; i <=15; i++) {
+    console.log(i);
+}
+let o = {
+    name: "kanu",
+    role: "programmer",
+    company : "CodeWithHarry"
+};
+for(const key in o){
+    console.log(key);
+}
+for(const c of "kanu"){
+    console.log(c);
+}
+let i=5;
+while(i<6){
+    console.log(i);
+    i++;
+}
+do {
+    console.log(i);
+    i++;
+} while (i<0);
+console.log(i);
+
 
