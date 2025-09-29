@@ -89,5 +89,23 @@ do {
     i++;
 } while (i<0);
 console.log(i);
-
+// functions in javascript
+function nice(name){
+    console.log("Hey "+name+"! you are beautiful");
+}
+nice("Kanu");
+function sum(a,b){
+    console.log(a+b);
+}
+sum(9,8);
+function add(a,b,c=3){ //c is a default value
+    return a+b+c;
+}
+console.log(add(5,5));
+// NaN - Not a Number 
+// arrow fuction
+const fucn1 = (x)=>{
+    console.log("I an a arrow function",x);
+}
+fucn1(33);
 
