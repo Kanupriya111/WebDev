@@ -108,4 +108,15 @@ const fucn1 = (x)=>{
     console.log("I an a arrow function",x);
 }
 fucn1(33);
-
+let a = "Kanupriya";
+console.log(a.length);
+console.log("Her name is "+ a);
+console.log(`Her name is ${a}`); // string interpolation
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(a.slice(4,9));
+console.log(a.replace("a","x"));
+console.log(a.replace("x","a"));
+console.log(a.concat(".10","/03","/2006"));
+console.log(a); //stringa are immutable in JS
+console.log(a.startsWith("K"));
