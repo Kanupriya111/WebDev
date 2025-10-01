@@ -120,3 +120,21 @@ console.log(a.replace("x","a"));
 console.log(a.concat(".10","/03","/2006"));
 console.log(a); //stringa are immutable in JS
 console.log(a.startsWith("K"));
+
+
+// coding faulty calculator
+let random = Math.random();
+let a = prompt("Enter first Number");
+let b = prompt("Enter second Number");
+let c = prompt("Enter Operations");
+let obj = {
+    "+":"-",
+    "*":"+",
+    "/":"**",
+};
+if(random>0.1){
+    alert(`the result is ${eval(`${a} ${c} ${b}`)}`);
+}else{
+    c = obj[c];
+    alert(`the result is ${eval(`${a} ${c} ${b}`)}`);
+}
