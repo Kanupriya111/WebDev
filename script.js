@@ -138,3 +138,23 @@ if(random>0.1){
     c = obj[c];
     alert(`the result is ${eval(`${a} ${c} ${b}`)}`);
 }
+
+
+let arr = [1,2,3,4,5,6,7]
+console.log(arr);
+console.log(arr.length);
+// arrays are mutable
+arr[0]=10;
+console.log(arr);
+// while string in JS are immutable
+let a = "Kanu";
+a[0]="P";
+console.log(a);
+console.log(arr.toString());
+console.log(arr.join(" and "));
+arr.pop();
+console.log(arr);
+arr.push(100);
+console.log(arr);
+arr.push("Kanu")
+console.log(arr);
