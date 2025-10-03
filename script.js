@@ -192,3 +192,31 @@ for(const key in obj){
         console.log(key,element);
     }
 }
+
+let arr = [1,2,3,4,5,6,7];
+for (const element of arr) {
+    console.log(element);
+}
+let newArr=[]
+for (let index = 0; index < arr.length; index++) {
+    const element = arr[index];
+    newArr.push(element**2)
+}
+console.log(newArr)
+let newAr = arr.map((e)=>{
+    return e**2;
+})
+console.log(newAr);
+const greaterThanSeven=(e)=>{
+    if(e>7){
+        return true
+    }
+    return false;
+}
+console.log(newAr.filter(greaterThanSeven));
+let arr2 = [1,2,3,4,5,6,7,8,9,10];
+const red = (a,b)=>{
+    return a*b;
+}
+console.groupCollapsed(arr2.reduce(red));
+console.log(Array.from("Kanupriya"));
