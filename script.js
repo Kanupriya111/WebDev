@@ -158,3 +158,37 @@ arr.push(100);
 console.log(arr);
 arr.push("Kanu")
 console.log(arr);
+
+arr.shift();
+console.log(arr); //pop the first element
+arr.unshift("KANU");
+console.log(arr);
+delete arr[7];
+console.log(arr);
+console.log(arr.length);
+console.log(arr[7]);
+let a1 ="kan";
+let a2 = "upr";
+let a3 = "iya";
+console.log(a1.concat(a2,a3)); // returns a new array and does not change an existing arrays
+let numbers = [1,2,3,4,5,6,7,8];
+numbers.splice(1,2); // removing 2 elements from index 1
+console.log(numbers);
+numbers.splice(1,3,10,15,20,25,30);
+console.log(numbers);
+
+let array = [1,2,3,4,5,6,7,8,9];
+array.forEach((val,index,arr)=>{
+    console.log(val,index,arr)
+})
+let obj={
+    a:1,
+    b:2,
+    c:3
+}
+for(const key in obj){
+    if(obj.hasOwnProperty.call(obj,key)){
+        const element = obj[key];
+        console.log(key,element);
+    }
+}
