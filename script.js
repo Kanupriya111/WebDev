@@ -220,3 +220,46 @@ const red = (a,b)=>{
 }
 console.groupCollapsed(arr2.reduce(red));
 console.log(Array.from("Kanupriya"));
+
+// Random Business name Generator
+let rand = Math.random();
+let first ,second,third;
+// lets generate the first word
+if(rand<0.33){
+    //  0 0.33 0.66 1
+    first = "craxy";
+}else if(rand<0.66 && rand>0.33){
+    first = "Amazing";
+}else{
+    first = "Fire";
+}
+// lets generate the second word
+rand = Math.random();
+if(rand<0.33){
+    //  0 0.33 0.66 1
+    second = "Sitaara";
+}else if(rand<0.66 && rand>0.33){
+    second = "Oberoi";
+}else{
+    second = "Malhaan";
+}
+// lets generate the third word
+rand = Math.random();
+if(rand<0.33){
+    //  0 0.33 0.66 1
+    third = "Sharma";
+}else if(rand<0.66 && rand>0.33){
+    third = "Sood";
+}else{
+    third = "Touchwood";
+}
+console.log(`${first} ${second} ${third}`);
+
+// Document object Model(DOM) in JavaScript
+document.title = "kanu";
+console.log(document.title);
+console.log(document.body);
+document.body.style.backgroundColor = "cornflowerblue";
+// Browser Object Model (BOM) in JavaScript
+// window.document.body -> wiindow has global scope
+
