@@ -262,4 +262,10 @@ console.log(document.body);
 document.body.style.backgroundColor = "cornflowerblue";
 // Browser Object Model (BOM) in JavaScript
 // window.document.body -> wiindow has global scope
+console.log("Hello World!")
+// document.body.childNodes
+// NodeList(9) [text, script, text, div.container, text, comment, text, script, text]
+// text nodes(spaces) and comment nodes...
+// text comment ...text Element...
+// table links...
 
