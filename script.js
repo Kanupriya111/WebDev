@@ -268,4 +268,10 @@ console.log("Hello World!")
 // text nodes(spaces) and comment nodes...
 // text comment ...text Element...
 // table links...
+// DOM - Document Object Model
+// BOM - Browser Object Model
+console.log("kanupriya");
+let kanu = document.getElementsByClassName("box");
+console.log(kanu);
+kanu[2].style.backgroundColor = "red";
 
