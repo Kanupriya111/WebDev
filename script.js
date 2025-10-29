@@ -273,5 +273,12 @@ console.log("Hello World!")
 console.log("kanupriya");
 let kanu = document.getElementsByClassName("box");
 console.log(kanu);
-kanu[2].style.backgroundColor = "red";
+// kanu[2].style.backgroundColor = "red";
+document.getElementById("redbox").style.backgroundColor="pink";
+document.querySelector(".box").style.backgroundColor="cornflowerblue"; //inline CSS using JAVASCRIPT
+document.querySelectorAll(".box").forEach(e => {
+    e.style.backgroundColor="red"
+})
+// for all these fetatures so run the script after the declaration of the elements
+
 
