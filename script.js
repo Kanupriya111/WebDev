@@ -282,3 +282,50 @@ document.querySelectorAll(".box").forEach(e => {
 // for all these fetatures so run the script after the declaration of the elements
 
 
+
+document.querySelector(".box")
+//<div class=​"box">​Kanupriya​</div>​
+document.querySelector(".box").innerHTML
+//'Kanupriya'
+document.querySelector(".container")
+//<div class=​"container">​…​</div>​
+document.querySelector(".container").outerHTML
+// '<div class="container">\n        <div class="box">Kanupriya</div>\n  
+script.js:1 Hello World!
+document.querySelector(".container").hidden=false
+false
+document.querySelector(".container").hasAttribute("style")
+
+false
+document.querySelector(".box").innerHTML = "I am very Sad today!"
+'I am very Sad today!'
+document.querySelector(".container").hasAttribute("style")
+
+false
+document.querySelector(".box").getAttribute("style")
+null
+document.querySelector(".box").setAttribute("style","display:inline")
+
+undefined
+document.querySelector(".box").setAttributes
+
+undefined
+document.querySelector(".box").getAttributes
+
+undefined
+document.designMode="on"
+'on'
+document.querySelector(".box").dataset
+DOMStringMap {}
+document.querySelector(".container").className
+
+'container'
+document.querySelector(".container").classList
+
+DOMTokenList ['container', value: 'container']
+document.querySelector(".container").className
+'container'
+document.querySelector(".container").classList.add("Kanu")
+
+undefined
+
