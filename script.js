@@ -328,4 +328,11 @@ document.querySelector(".container").className
 document.querySelector(".container").classList.add("Kanu")
 
 undefined
-
+let btn = document.getElementById("btn");
+btn.addEventListener("click",()=>{
+    alert("I was clicked")
+    document.querySelector(".box").innerHTML= "<b>Yayy You were clicked </b> Enjoy your click!"
+})
+btn.addEventListener("dblclick",()=>{
+    alert("Dont hack us by Right Click please");
+})
