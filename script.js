@@ -254,7 +254,9 @@ if(rand<0.33){
     third = "Touchwood";
 }
 console.log(`${first} ${second} ${third}`);
-
+console.log(`Kanu"priya`)
+console.log("Kanu\"priya")
+console.log("Kanu\priya")
 // Document object Model(DOM) in JavaScript
 document.title = "kanu";
 console.log(document.title);
