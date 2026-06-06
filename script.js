@@ -349,12 +349,6 @@ document.querySelector(".container").innerText
 document.querySelector(".container").innerHTML
 '\n        <div class="box">Hey I am a box.</div>\n    '
     
- <script>
-            let div = document.createElement("div");
-            div.innerHTML = "I have been inserted<b> by kanu</b>"
-            div.setAttribute("class","created");
-            document.querySelector(".container").append(div)
-</script>
 let button = document.getElementById("btn");
 button.addEventListener("click",()=>{
     alert("I was clicked");
