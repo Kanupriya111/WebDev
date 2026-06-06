@@ -355,3 +355,30 @@ button.addEventListener("click",()=>{
     document.querySelector(".box").innerHTML = "<b> Yayy you were clicked <b> Enjoy your click!"
     
 })
+console.log("Kanu is a hacker!");
+console.log("kanupriya is a hacker!");
+
+setTimeout(()=>{
+    console.log("I am inside settimeout")
+},0);
+setTimeout(()=>{
+    console.log("I am inside settimeout2")
+},0);
+console.log("The End");
+sync function getData(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve(455)
+        },3500);
+    })
+}
+
+async function main(){
+    console.log("Loading Modules")
+    console.log("Do something else")
+    console.log("load data")
+    let data = getdata()
+    console.log("process data")
+    console.log("Task 2")
+}
+main()
