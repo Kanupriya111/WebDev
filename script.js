@@ -339,3 +339,25 @@ btn.addEventListener("click",()=>{
 btn.addEventListener("dblclick",()=>{
     alert("Dont hack us by Right Click please");
 })
+// console
+document.querySelector(".box")
+<div class=​"box">​Hey I am a box.​</div>​
+document.querySelector(".box").innerHTML
+'Hey I am a box.'
+document.querySelector(".container").innerText
+'Hey I am a box.'
+document.querySelector(".container").innerHTML
+'\n        <div class="box">Hey I am a box.</div>\n    '
+    
+ <script>
+            let div = document.createElement("div");
+            div.innerHTML = "I have been inserted<b> by kanu</b>"
+            div.setAttribute("class","created");
+            document.querySelector(".container").append(div)
+</script>
+let button = document.getElementById("btn");
+button.addEventListener("click",()=>{
+    alert("I was clicked");
+    document.querySelector(".box").innerHTML = "<b> Yayy you were clicked <b> Enjoy your click!"
+    
+})
