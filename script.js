@@ -381,4 +381,30 @@ async function main(){
     console.log("process data")
     console.log("Task 2")
 }
-main()
+main()let obj = {
+    a:1,
+    b:"kanu"
+}
+console.log(obj)
+let animal={
+    eats:true
+};
+
+let rabbit={
+    jump:true
+};
+Object.setPrototypeOf(rabbit,animal);
+class Animal{
+    constructor(name){
+        this.name = name
+        console.log("object is created")
+    }
+    eats(){
+        console.log("eating")
+    }
+    jump(){
+        console.log("jumping")
+    }
+}
+let s = new Animal("Bunny");
+console.log(s);
