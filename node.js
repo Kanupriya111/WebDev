@@ -31,3 +31,28 @@ console.log(arr[0]+arr[1]+arr[2])
 console.log(sum(...arr));
 
 // ... -> destructuring or spread operator
+const express = require('express')
+const app = express()
+const port = 3000
+app.get('/' ,(req,res) => {
+    res.send(`Hello World`)
+})
+app.listen(port,()=> {
+    console.log(`Example app listening on port ${port}`)
+})
+import path from "path"
+const fs = require("fs")
+console.log(fs)
+console.log("starting")
+// fs.writeFileSync("kanu.txt","Kanu is a good girl")
+fs.writeFile("kanu.txt","Kanu is a good girl",()=>{
+    console.log("done")
+    fs.readFile("kanu.txt",(error,data)=>{
+        console.log(error,data.toString())
+    })
+})
+fs.appendFile("kanu.txt"," Kanupriya",(e,d)=>{
+    console.log(d)
+})
+console.log("ending")
+console.log(path)
