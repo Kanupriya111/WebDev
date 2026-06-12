@@ -80,3 +80,17 @@ app.get('/blog/:slug',(req,res)=>{
 app.listen(port,()=>{
     console.log(`Example app listening on port ${port}`)
 })
+app.use(express.static('public'))
+// res.send() -> to send text
+// res.sendFile() -> to send file
+// Postman
+// Express Routes
+// Middleware
+app.use((req,res,next)=>{
+    console.log('m1')
+    next()
+})
+app.use((req,res,next)=>{
+    console.log('m2')
+    next()
+})
