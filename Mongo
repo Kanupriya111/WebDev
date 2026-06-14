@@ -12,3 +12,9 @@ db.Mongo.find()
   name: 'JavaScript',
   coder: 'Kanupriya'
 }
+db.Mongo.insertOne({Town:"Una"})
+{
+  acknowledged: true,
+   insertedId: ObjectId('6a2eed43e729998b78f28444')
+}
+db.Mongo.find()
