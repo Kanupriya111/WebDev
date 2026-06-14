@@ -1,0 +1,14 @@
+switched to db WebDev
+show databases
+WebDev  40.00 KiB
+admin   40.00 KiB
+config  72.00 KiB
+local   40.00 KiB
+use WebDev
+already on db WebDev
+db.Mongo.find()
+{
+  _id: ObjectId('6a2ecf54c05ec8180fe7d406'),
+  name: 'JavaScript',
+  coder: 'Kanupriya'
+}
