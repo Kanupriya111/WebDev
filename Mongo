@@ -18,3 +18,15 @@ db.Mongo.insertOne({Town:"Una"})
    insertedId: ObjectId('6a2eed43e729998b78f28444')
 }
 db.Mongo.find()
+use("CrudDb")
+db.createCollection("CRUD")
+db.CRUD.insertOne({
+    name : "Kanu is doing WebDev",
+    lastname : "Priya"
+})
+db.CRUD.insertOne({
+    name : "Kanu is learning Databases",
+    lastname : "K"
+})
+let a = db.CRUD.find({lastname : "K"})
+console.log(a)
