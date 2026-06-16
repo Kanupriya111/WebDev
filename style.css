@@ -430,6 +430,21 @@ img{
   <h1 class = "text-pink-500">Hello world</h1>
   <p class = "bg-cyan-300">This is a paragraph</p>
 </div>
+@import "tailwindcss";
+@importtailwind base;
+@importtailwind components;
+@tailwind utilities;
+module.export={
+    content : [".*html"],
+    theme : {
+        extend:{},
+    },
+    plugins:[],
+}
+<div class="container flex flex-col">
+        <div class="text-white bg-blue-400">Hii</div>
+    </div>
+    
 
 
 
