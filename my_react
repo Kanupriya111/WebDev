@@ -40,6 +40,20 @@ const Navbar = () => {
     </div>
   )
 }
-
 export default Navbar
-
+//useEffect
+// run on every render
+  useEffect(() => {
+    alert("I will run on every render")
+  })
+  useEffect(() => {
+    alert("Hey Welcome to my page")
+  }, [])
+  useEffect(() => {
+    alert("count was changed ")
+  }, [count])
+const ref = useRef()
+<div>
+      <button ref={ref} onClick={()=> setCount((count)=>count+1)}>count is {count}
+      </button>
+    </div>
