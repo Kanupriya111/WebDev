@@ -57,3 +57,4 @@ const ref = useRef()
       <button ref={ref} onClick={()=> setCount((count)=>count+1)}>count is {count}
       </button>
     </div>
+// Redering a list in React
