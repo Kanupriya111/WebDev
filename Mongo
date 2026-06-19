@@ -17,6 +17,7 @@ db.Mongo.insertOne({Town:"Una"})
   acknowledged: true,
    insertedId: ObjectId('6a2eed43e729998b78f28444')
 }
+//CRUD Operations 
 db.Mongo.find()
 use("CrudDb")
 db.createCollection("CRUD")
