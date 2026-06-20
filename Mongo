@@ -33,3 +33,24 @@ let a = db.CRUD.find({lastname : "K"})
 console.log(a)
 db.CRUD.updateOne({lastname : "K"},{$set:{lastname : "KK"}})
 db.CRUD.deleteOne({lastname:"KK"})
+function App() {
+  const [count, setCount] = useState(0)\
+  const handleCLick = ()=>{
+    alert("Hey I am clicked!")
+  }
+  const handleMouse=()=>{
+    alert("Hey I am a mouse over")
+  }
+
+  return (
+    <>
+      <div className="button">
+        <button onClick={handleClick}>Click me</button>
+      </div>
+      <div className="red" onMouseOver={handleMouseOver}>
+        I am a red div
+      </div>
+    </>
+  )
+}
+
