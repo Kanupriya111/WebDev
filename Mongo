@@ -75,3 +75,4 @@ const magial = useMemo(()=>numbers.find(item=>item.ismagical===true),[])
   
 // useCallback hook in react
 // Form Handling in React using..."React Hook Form"
+//Redux 
