@@ -54,3 +54,24 @@ function App() {
   )
 }
 //  Routing in React
+// useMemo hook in react
+const nums = new Array(30_000_000).fill(0).map((_,i)=>{
+  return {
+    index :i,
+    isMagical : i=== 29_000_000
+    }
+})
+const magial = numbers.find(item=>item.ismagical===true)
+ 
+
+  return (
+    <>
+      <div>
+        <span>Magical number is {magical.index}</span>
+      </div>
+    </>
+  )
+const magial = useMemo(()=>numbers.find(item=>item.ismagical===true),[])
+  
+// useCallback hook in react
+// React Hook Form
