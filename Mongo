@@ -127,3 +127,4 @@ export default async function Home() {
 }
 // Enviromental Variables in Next.js
 // styled JXS
+// Deploying of Next.js App to vercel
